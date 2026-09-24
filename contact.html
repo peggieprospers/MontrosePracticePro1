@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Montrose Beach</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav>
+      <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="visitor-info.html">Visitor Info</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="contact.html">Contact</a></li>
+</ul>
+    </nav>
+
+    <main>
+        <h1>Plan Your Visit to Montrose Beach</h1>
+
+        <p>Have a question about visiting Montrose Beach, or want to get in touch about a future event? Fill out the form below and we'll get back to you. Looking to grab a bite while you're here? Visit
+            <a href="https://www.thedockatmontrosebeach.com/" target="_blank">The Dock at Montrose Beach</a>
+            for food, drinks, and live music right on the sand.
+        </p>
+
+        <form action="#" method="post">
+            <label for="name">Full Name</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email Address</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Your Message</label><br>
+            <textarea id="message" name="message" rows="5" placeholder="Tell us what you'd like to know..."></textarea><br><br>
+
+            <label for="interest">What are you interested in?</label><br>
+            <select id="interest" name="interest">
+                <option value="general">General Visit Information</option>
+                <option value="birding">Birdwatching Tips</option>
+                <option value="harbor">Harbor / Boating Info</option>
+                <option value="dock">The Dock Restaurant</option>
+                <option value="events">Event Planning</option>
+            </select><br><br>
+
+            <fieldset>
+                <legend>How did you hear about us?</legend>
+                <input type="radio" id="social" name="referral" value="social">
+                <label for="social">Social Media</label><br>
+
+                <input type="radio" id="friend" name="referral" value="friend">
+                <label for="friend">Friend/Family</label><br>
+
+                <input type="radio" id="google" name="referral" value="google">
+                <label for="google">Google Search</label><br>
+
+                <input type="radio" id="visited" name="referral" value="visited">
+                <label for="visited">Visited Before</label><br>
+            </fieldset>
+            <br>
+
+            <input type="submit" value="Send Message">
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Montrose Beach Guide | Built as a student project | Not an official Chicago Park District website</p>
+    </footer>
+</body>
+</html>
